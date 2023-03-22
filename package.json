@@ -2,14 +2,14 @@
   "name": "psm-theme",
   "displayName": "PSM Theme",
   "description": "PSM Theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Sergiy",
   "author": {
     "name": "psm"
   },
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#232e33",
+    "color": "#19232D",
     "theme": "dark"
   },
   "homepage": "https://github.com/sergiokapone/psm-theme",
