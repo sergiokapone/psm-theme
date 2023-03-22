@@ -1,0 +1,38 @@
+{
+  "name": "psm-theme",
+  "displayName": "PSM Theme",
+  "description": "PSM Theme",
+  "version": "1.0.0",
+  "publisher": "psm",
+  "author": {
+    "name": "psm"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#232e33",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/sergiokapone/psm-theme",
+  "bugs": {
+    "url": "https://github.com/sergiokapone/psm-theme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiokapone/psm-theme0"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PSM Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PSM Theme-color-theme.json"
+      }
+    ]
+  }
+}
