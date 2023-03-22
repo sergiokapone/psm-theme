@@ -71,7 +71,7 @@
     "notifications.border": "#ffffff15",
     "notifications.foreground": "#cccccc",
     "panel.background": "#252525",
-    "panel.border": "#455364",
+    "panel.border": "#ffffff15",
     "panelInput.border": "#ffffff15",
     "panelTitle.activeBorder": "#0078d4",
     "panelTitle.activeForeground": "#cccccc",
