@@ -10,6 +10,8 @@ PSM color theme based on Spyder IDE 5 color theme
 
 ![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot.png)
 
+![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot2.png)
+
 ## Installation
 
 1. Open Extensions sidebar panel in VS Code. **View → Extensions**
