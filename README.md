@@ -8,9 +8,11 @@ PSM color theme based on Spyder IDE 5 color theme
   </a>
 </div>
 
-![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot.png)
+![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot1.png)
 
 ![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot2.png)
+
+![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot3.png)
 
 ## Installation
 
