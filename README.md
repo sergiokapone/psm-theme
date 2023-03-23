@@ -28,7 +28,7 @@ PSM color theme based on Spyder IDE 5 color theme
 }
 ```
 
-## FAQ
+I recommend to use Material Icon Theme.
 
 ## Contributing
 
