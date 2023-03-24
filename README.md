@@ -1,20 +1,8 @@
 # [PSM Color Scheme for VSCode](https://github.com/sergiokapone/psm-theme)
 
-The theme for Visual Studio Code is an excellent choice for those who work with JavaScript and Python, particularly in the field of Data Science. This color scheme combines pleasant tones and improved syntax highlighting, making code easier to read and understand. Moreover, thanks to its greenish hue, the theme is easy on the eyes and code elements are clearly visible. This theme is based on the color scheme of the popular [Spyder IDE](https://www.spyder-ide.org/), which is highly regarded by data scientists.
+Enhance your coding experience with the new "**P**rogramming and **S**cripting **M**anagement" color scheme for **VS Code**. This theme is perfect for programmers and script developers looking for a more appealing and professional interface for their work. "Programming and Scripting Management" offers a unique combination of bright colors and subtle lines that make reading code easier and increase productivity.
 
-Here are some advantages of the theme for Visual Studio Code:
-
-- Multi-element highlighting: The theme includes highlighting for various elements of code. This includes classes, methods, functions, and more.
-
-- Improved readability: With a highly legible color scheme, the theme helps to reduce eyestrain and makes it easier to work with large blocks of code.
-
-- Improved visibility of interface elements: The theme provides improved visibility of interface elements, making it easy for you to find and select the features you need.
-
-- Suitable for working with regular expressions: Thanks to the contrast between different elements in the theme, the details of your regular expressions will be easy to notice and understand.
-
-- Suitable for different projects: The theme is suitable not only for Data Science projects, but also for any other project in which you work with JavaScript.
-
-Overall, the "PSM Theme" theme is an excellent choice for those who want to make their work with JavaScript and Python more pleasant and efficient.
+Also, this theme is an excellent choice for those who work with JavaScript and Python, particularly in the field of Data Science. It combines pleasant tones and improved syntax highlighting, making code easier to read and understand. Moreover, thanks to its greenish hue, the theme is easy on the eyes and code elements are clearly visible. Based on the color scheme of the popular [Spyder IDE](https://www.spyder-ide.org/), which is highly regarded by data scientists.
 
 <div align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=Sergiy.psm-theme" align="center">
