@@ -46,7 +46,7 @@ Overall, the "PSM Theme" theme is an excellent choice for those who want to make
 }
 ```
 
-I recommend to use Material Icon Theme.
+I recommend to use [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
 
 ## Contributing
 
