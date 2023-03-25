@@ -34,7 +34,7 @@ I recommend using [JetBrain’s Mono](https://www.jetbrains.com/lp/mono/) mono-s
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.fontWeight": "normal",
-  "editor.letterSpacing": 0.75,
+  "editor.letterSpacing": 0.5,
   "editor.lineHeight": 1.3,
   "editor.rulers": [79],
   "editor.stickyScroll.enabled": true,
