@@ -26,11 +26,23 @@ Also, this theme is an excellent choice for those who work with **Python** and *
 
 ## Recommended Settings
 
+I recommend using [JetBrain’s Mono](https://www.jetbrains.com/lp/mono/) mono-spaced font which is useful for both presenting code and working with it in an IDE. It has an increased x-height for a better reading experience, better shapes for seeing columns of letters, and a developer-friendly assortment of ligatures that make all of your multi-character operators actually look like a single, unified operator.
+
 ```
 {
+"editor.fontFamily": "JetBrains Mono, Consolas, monospace",
+  "editor.fontLigatures": true,
   "editor.fontSize": 12,
-  "editor.lineHeight": 1.5,
-  "editor.letterSpacing": 0.5
+  "editor.fontWeight": "normal",
+  "editor.letterSpacing": 0.75,
+  "editor.lineHeight": 1.3,
+  "editor.rulers": [79],
+  "editor.stickyScroll.enabled": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 79,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "Consolas, JetBrains Mono, monospace"
+
 }
 ```
 
