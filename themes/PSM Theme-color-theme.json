@@ -142,10 +142,6 @@
     "welcomePage.progress.foreground": "#0078d4",
     "welcomePage.tileBackground": "#ffffff0f"
   },
-  "workbench.tree.indent": 20,
-  "workbench.colorCustomizations": {
-    "tree.indentGuidesStroke": "#8E929B"
-  }
   "name": "PSM Theme",
   "semanticHighlighting": true,
   "tokenColors": [
