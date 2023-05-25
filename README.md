@@ -26,7 +26,7 @@ Additionally, the improved syntax highlighting for regular expressions in this t
 2. Search for **PSM Theme**
 3. Click **Install** to install it.
 4. Click **Reload** to reload the editor.
-5. File > Preferences > Color Theme > Atom Material Theme
+5. File > Preferences > Color Theme > **PSM Theme**
 
 ## Recommended Settings
 
