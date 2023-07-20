@@ -36,7 +36,7 @@
     "editorGroupHeader.tabsBackground": "#0E1621",
     "editorGroupHeader.tabsBorder": "#ffffff15",
     "editorGutter.addedBackground": "#2ea043",
-    "editorGutter.background": "#222B35",
+    "editorGutter.background": "#19232D",
     "editorGutter.deletedBackground": "#f85149",
     "editorGutter.modifiedBackground": "#0078d4",
     "editorInlayHint.background": "#8b949e33",
@@ -193,7 +193,7 @@
         "punctuation.separator.comma.js"
       ],
       "settings": {
-        "foreground": "#ebffff"
+        "foreground": "#eff7ff"
       }
     },
     {
