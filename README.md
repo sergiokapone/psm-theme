@@ -1,4 +1,4 @@
-# [PSM Color Scheme for VSCode](https://github.com/sergiokapone/psm-theme) <img align="right" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
+# [PSM Color Scheme for VSCode](https://github.com/sergiokapone/psm-theme)
 
 Enhance your coding experience with the new "**P**rogramming and **S**cripting **M**anagement" color scheme for **VS Code**. This theme is perfect for programmers and script developers looking for a more appealing and professional interface for their work. "Programming and Scripting Management" offers a unique combination of bright colors and subtle lines that make reading code easier and increase productivity.
 
