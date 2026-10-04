@@ -520,6 +520,58 @@
       "settings": {
         "foreground": "#ff869a"
       }
+    },
+    {
+      "scope": "support.function.be.latex",
+      "settings": { "foreground": "#00ffc8", "fontStyle": "" }
+    },
+    {
+      "scope": "variable.parameter.function.latex",
+      "settings": { "foreground": "#ffff7fc5", "fontStyle": "" }
+    },
+    {
+      "scope": "constant.character.math.tex",
+      "settings": { "foreground": "#7bc459", "fontStyle": "" }
+    },
+    {
+      "scope": "constant.other.reference.label.latex",
+      "settings": { "foreground": "#56b6c2", "fontStyle": "underline" }
+    },
+    {
+      "scope": "constant.other.general.math.tex",
+      "settings": { "foreground": "#ffc59eda", "fontStyle": "" }
+    },
+    {
+      "scope": "support.class.math.block.environment.latex",
+      "settings": { "foreground": "#56b6c2" }
+    },
+    {
+      "scope": "keyword.control.label.latex",
+      "settings": { "foreground": "#c678dd" }
+    },
+    {
+      "scope": "keyword.control.ref.latex",
+      "settings": { "foreground": "#56b6c2", "fontStyle": "" }
+    },
+    {
+      "scope": "punctuation.definition.constant.math.tex",
+      "settings": { "foreground": "#98c379", "fontStyle": "" }
+    },
+    {
+      "scope": "comment.line.percentage.tex",
+      "settings": { "foreground": "#5c6370", "fontStyle": "italic" }
+    },
+    {
+      "scope": "keyword.other.item.latex",
+      "settings": { "foreground": "#00ffc8" }
+    },
+    {
+      "scope": "support.function.math.latex",
+      "settings": { "foreground": "#FF9D00" }
+    },
+    {
+      "scope": "meta.function.environment.latex.tikz",
+      "settings": { "foreground": "#fff9f0", "fontStyle": "" }
     }
   ],
   "type": "dark"
