@@ -64,17 +64,13 @@
     "list.activeSelectionForeground": "#ffffff",
     "list.activeSelectionIconForeground": "#ffffff",
     "list.hoverBackground": "#455364",
-    "list.inactiveSelectionBackground": "#0E1622",
+    "list.inactiveSelectionBackground": "#ffffff0a",
     "menu.border": "#455364",
     "menu.separatorBackground": "#455364",
     "menubar.selectionBackground": "#ffffff1a",
     "notebook.focusedCellBackground": "#455364",
-    "notebook.backgroundColor": "#FFFFFF",
-    "notebook.cellBackgroundColor": "#F0F0F0",
     "notebook.cellBorderColor": "#455364",
     "notebook.cellEditorBackground": "#17212B",
-    "notebook.outputBackgroundColor": "#FFFFFF",
-    "notebook.outputBorderColor": "#DDDDDD",
     "notificationCenterHeader.background": "#1f1f1f",
     "notificationCenterHeader.foreground": "#cccccc",
     "notifications.background": "#1f1f1f",
@@ -222,8 +218,7 @@
     {
       "scope": [
         "support.other.parenthesis.regexp",
-        "support.other.escape.special.regexp",
-        "string.regexp.quoted.single.python"
+        "support.other.escape.special.regexp"
       ],
       "settings": {
         "foreground": "#0c5"
@@ -357,8 +352,6 @@
         "storage.modifier.cs",
         "keyword.other.class.cs",
         "keyword.type.cs",
-        "markup.italic.markdown",
-        "punctuation.definition.italic.markdown",
         "keyword.package.go",
         "keyword.import.go",
         "keyword.function.go",
@@ -403,7 +396,6 @@
         "variable.other.property",
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
-        "markup.quote.markdown",
         "meta.function-call.generic.python",
         "keyword.other.special-method.ruby",
         "entity.name.type.js",
