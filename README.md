@@ -2,19 +2,19 @@
 
 Enhance your coding experience with the new "**P**rogramming and **S**cripting **M**anagement" color scheme for **VS Code**. This theme is perfect for programmers and script developers looking for a more appealing and professional interface for their work. "Programming and Scripting Management" offers a unique combination of bright colors and subtle lines that make reading code easier and increase productivity.
 
-![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot1.png)
+![Python](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot2.png)
 
 Also, this theme is an excellent choice for those who work with **Python** and **JavaScript**, particularly in the field of **Data Science**. It combines pleasant tones and improved syntax highlighting, making code easier to read and understand. Moreover, thanks to its greenish hue, the theme is easy on the eyes and code elements are clearly visible. Based on the color scheme of the popular [Spyder IDE](https://www.spyder-ide.org/), which is highly regarded by data scientists.
 
-![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot2.png)
+![Jupyter notebook](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot3.png)
 
 Furthermore, the theme's improved syntax highlighting allows for better differentiation between different code elements. This means that variables, functions, and keywords can be easily distinguished, reducing the risk of errors and making debugging easier.
 
 Additionally, the improved syntax highlighting for regular expressions in this theme includes the use of different colors to differentiate between matching and non-matching groups, making it easy to see which parts of the expression are performing specific tasks. This feature is particularly useful when working with large or complex regular expressions, where it can be challenging to keep track of all the different parts.
 
-![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot3.png)
-
 The extension also adds highlighting for TikZ — `tikzpicture`, `tikzcd`, inline `\tikz` and pgfplots (on top of [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)): drawing commands (`\draw`, `\node`, `\foreach`, `\addplot`, `\arrow`, …), option keys (`draw=`, `inner sep=`), numbers with units, path operators (`--`, `++`, `->`) and path keywords (`at`, `circle`, `ellipse`, `cycle`, …).
+
+![TikZ](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot1.png)
 
 <div align="center">
   <a href="https://vscode.dev/theme/Sergiy.psm-theme" align="center">
