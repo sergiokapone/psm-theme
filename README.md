@@ -15,7 +15,7 @@ Additionally, the improved syntax highlighting for regular expressions in this t
 ![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot3.png)
 
 <div align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=Sergiy.psm-theme" align="center">
+  <a href="https://vscode.dev/theme/Sergiy.psm-theme" align="center">
     <img src="https://img.shields.io/badge/preview%20in-vscode.dev-blue">
   </a>
 </div>
@@ -30,11 +30,11 @@ Additionally, the improved syntax highlighting for regular expressions in this t
 
 ## Recommended Settings
 
-I recommend using [JetBrain’s Mono](https://www.jetbrains.com/lp/mono/) mono-spaced font which is useful for both presenting code and working with it in an IDE. It has an increased x-height for a better reading experience, better shapes for seeing columns of letters, and a developer-friendly assortment of ligatures that make all of your multi-character operators actually look like a single, unified operator.
+I recommend using [JetBrains Mono](https://www.jetbrains.com/lp/mono/) mono-spaced font which is useful for both presenting code and working with it in an IDE. It has an increased x-height for a better reading experience, better shapes for seeing columns of letters, and a developer-friendly assortment of ligatures that make all of your multi-character operators actually look like a single, unified operator.
 
-```
+```json
 {
-"editor.fontFamily": "JetBrains Mono, Consolas, monospace",
+  "editor.fontFamily": "JetBrains Mono, Consolas, monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.fontWeight": "normal",
@@ -46,7 +46,6 @@ I recommend using [JetBrain’s Mono](https://www.jetbrains.com/lp/mono/) mono-s
   "editor.wordWrapColumn": 79,
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "Consolas, JetBrains Mono, monospace"
-
 }
 ```
 
@@ -54,4 +53,4 @@ I recommend to use [Material Icon Theme](https://marketplace.visualstudio.com/it
 
 ## Contributing
 
-If something don't look correct, please open an issue. I'll try to fix it.
+If something doesn't look correct, please open an issue. I'll try to fix it.
