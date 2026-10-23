@@ -1,0 +1,31 @@
+name: Build and publish
+
+on:
+  push:
+    branches: [master]
+    tags: ["v*"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx vsce package
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vsix
+          path: "*.vsix"
+
+      # Publishes only for version tags (git tag v1.1.0 && git push --tags).
+      # Requires the VSCE_PAT repository secret (Settings > Secrets and variables > Actions).
+      - name: Publish to Marketplace
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: npx vsce publish --packagePath *.vsix
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}

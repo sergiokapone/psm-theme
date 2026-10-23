@@ -1,8 +1,8 @@
 {
   "name": "psm-theme",
   "displayName": "PSM Theme",
-  "description": "PSM Theme",
-  "version": "1.0.20",
+  "description": "Dark theme for Python, Data Science and LaTeX/TikZ, based on Spyder IDE colors",
+  "version": "1.1.0",
   "publisher": "Sergiy",
   "author": {
     "name": "psm"
@@ -21,11 +21,23 @@
     "url": "https://github.com/sergiokapone/psm-theme"
   },
   "engines": {
-    "vscode": "^1.0.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "python",
+    "spyder",
+    "latex",
+    "tikz"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
   "contributes": {
     "themes": [
       {
@@ -41,10 +53,17 @@
         "injectTo": [
           "text.tex.latex"
         ]
+      },
+      {
+        "scopeName": "tikz-wrap.injection",
+        "path": "./syntaxes/tikz-wrap.injection.json",
+        "injectTo": [
+          "text.tex.latex"
+        ]
       }
     ]
   },
   "devDependencies": {
-    "vsce": "^2.15.0"
+    "@vscode/vsce": "^4.0.0"
   }
 }

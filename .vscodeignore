@@ -1,8 +1,10 @@
 .vscode/**
 .vscode-test/**
+.github/**
 .gitignore
 vsc-extension-quickstart.md
 node_modules/**
 *.vsix
 images/icon.sketch
+images/screenshot*.png
 package.cmd

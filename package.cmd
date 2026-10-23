@@ -1,3 +1,3 @@
 @echo off
 del *.vsix
-vsce package
+call npm run package
