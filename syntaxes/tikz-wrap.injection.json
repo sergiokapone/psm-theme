@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "tikz-wrap.injection",
+  "injectionSelector": "L:text.tex.latex -comment -meta.math -meta.function.environment.latex.tikz",
+  "comment": "Gives tikzcd environments and inline \\tikz the same scope as tikzpicture, so tikz.injection applies to them too.",
+  "patterns": [
+    { "include": "#tikzcd-env" },
+    { "include": "#inline-tikz" }
+  ],
+  "repository": {
+    "tikzcd-env": {
+      "begin": "(\\s*\\\\begin\\{tikzcd\\})",
+      "end": "(\\\\end\\{tikzcd\\}(?:\\s*\\n)?)",
+      "captures": {
+        "1": { "patterns": [{ "include": "text.tex.latex#macro-with-args-tokenizer" }] }
+      },
+      "name": "meta.function.environment.latex.tikz",
+      "patterns": [{ "include": "text.tex.latex" }]
+    },
+    "inline-tikz": {
+      "begin": "((\\\\)tikz)(?![\\p{Alphabetic}@])",
+      "beginCaptures": {
+        "1": { "name": "support.function.path.tikz" },
+        "2": { "name": "punctuation.definition.function.tikz" }
+      },
+      "end": "(?<=[};])",
+      "name": "meta.function.environment.latex.tikz",
+      "patterns": [
+        { "include": "#braces" },
+        { "include": "text.tex.latex" }
+      ]
+    },
+    "braces": {
+      "begin": "(?<!\\\\)\\{",
+      "end": "(?<!\\\\)\\}",
+      "patterns": [
+        { "include": "#braces" },
+        { "include": "text.tex.latex" }
+      ]
+    }
+  }
+}

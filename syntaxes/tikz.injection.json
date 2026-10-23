@@ -3,6 +3,7 @@
   "scopeName": "tikz.injection",
   "injectionSelector": "L:meta.function.environment.latex.tikz -comment -meta.math -string",
   "patterns": [
+    { "include": "#strings" },
     { "include": "#commands" },
     { "include": "#keys" },
     { "include": "#numbers" },
@@ -10,8 +11,13 @@
     { "include": "#keywords" }
   ],
   "repository": {
+    "strings": {
+      "comment": "Arrow labels in tikzcd (\\arrow[r, \"f\"]) and node labels in graph syntax",
+      "match": "\"(?:[^\"\\\\]|\\\\.)*\"",
+      "name": "string.quoted.double.tikz"
+    },
     "commands": {
-      "match": "(\\\\)(?:draw|node|path|fill|filldraw|shade|shadedraw|clip|coordinate|foreach|pic|matrix|graph|useasboundingbox|tikzset|tikzstyle|pgfmathsetmacro|pgfmathparse|usetikzlibrary)(?![\\p{Alphabetic}@])",
+      "match": "(\\\\)(?:draw|node|path|fill|filldraw|shade|shadedraw|clip|coordinate|foreach|pic|matrix|graph|useasboundingbox|tikzset|tikzstyle|pgfmathsetmacro|pgfmathparse|usetikzlibrary|addplot3?|addlegendentry|pgfplotsset|nextgroupplot|arrow|ar)(?![\\p{Alphabetic}@])",
       "captures": {
         "1": { "name": "punctuation.definition.function.tikz" }
       },
@@ -36,7 +42,8 @@
         { "match": "<->|->|<-", "name": "keyword.operator.arrow.tikz" },
         { "match": "\\.\\.\\.", "name": "keyword.operator.ellipsis.tikz" },
         { "match": "--|\\+\\+|\\|-|-\\||\\.\\.", "name": "keyword.operator.path.tikz" },
-        { "match": ";", "name": "punctuation.terminator.statement.tikz" }
+        { "match": ";", "name": "punctuation.terminator.statement.tikz" },
+        { "match": "(?<!\\\\)&", "name": "keyword.operator.alignment.tikz" }
       ]
     },
     "keywords": {
