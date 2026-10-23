@@ -1,0 +1,47 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "tikz.injection",
+  "injectionSelector": "L:meta.function.environment.latex.tikz -comment -meta.math -string",
+  "patterns": [
+    { "include": "#commands" },
+    { "include": "#keys" },
+    { "include": "#numbers" },
+    { "include": "#operators" },
+    { "include": "#keywords" }
+  ],
+  "repository": {
+    "commands": {
+      "match": "(\\\\)(?:draw|node|path|fill|filldraw|shade|shadedraw|clip|coordinate|foreach|pic|matrix|graph|useasboundingbox|tikzset|tikzstyle|pgfmathsetmacro|pgfmathparse|usetikzlibrary)(?![\\p{Alphabetic}@])",
+      "captures": {
+        "1": { "name": "punctuation.definition.function.tikz" }
+      },
+      "name": "support.function.path.tikz"
+    },
+    "keys": {
+      "match": "(?<![\\\\\\w-])([A-Za-z][A-Za-z ]*[A-Za-z]|[A-Za-z])\\s*(=)",
+      "captures": {
+        "1": { "name": "entity.other.attribute-name.tikz" },
+        "2": { "name": "punctuation.separator.key-value.tikz" }
+      }
+    },
+    "numbers": {
+      "match": "(?<![\\w.])-?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(pt|cm|mm|em|ex|in|bp|sp|pc|dd|cc)?(?!\\w)",
+      "captures": {
+        "1": { "name": "keyword.other.unit.tikz" }
+      },
+      "name": "constant.numeric.tikz"
+    },
+    "operators": {
+      "patterns": [
+        { "match": "<->|->|<-", "name": "keyword.operator.arrow.tikz" },
+        { "match": "\\.\\.\\.", "name": "keyword.operator.ellipsis.tikz" },
+        { "match": "--|\\+\\+|\\|-|-\\||\\.\\.", "name": "keyword.operator.path.tikz" },
+        { "match": ";", "name": "punctuation.terminator.statement.tikz" }
+      ]
+    },
+    "keywords": {
+      "match": "(?<![\\\\\\w])(?:at|to|in|cycle|controls|and|rectangle|circle|ellipse|arc|grid|parabola|sin|cos|edge|plot|child|let|node|coordinate)(?!\\w)",
+      "name": "keyword.control.path.tikz"
+    }
+  }
+}

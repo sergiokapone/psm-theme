@@ -14,6 +14,8 @@ Additionally, the improved syntax highlighting for regular expressions in this t
 
 ![Preview](https://raw.githubusercontent.com/sergiokapone/psm-theme/master/images/screenshot3.png)
 
+The extension also adds highlighting inside TikZ `tikzpicture` environments (on top of [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)): drawing commands (`\draw`, `\node`, `\foreach`, …), option keys (`draw=`, `inner sep=`), numbers with units, path operators (`--`, `++`, `->`) and path keywords (`at`, `circle`, `ellipse`, `cycle`, …).
+
 <div align="center">
   <a href="https://vscode.dev/theme/Sergiy.psm-theme" align="center">
     <img src="https://img.shields.io/badge/preview%20in-vscode.dev-blue">

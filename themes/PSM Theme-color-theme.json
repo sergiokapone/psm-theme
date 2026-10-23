@@ -564,6 +564,14 @@
     {
       "scope": "meta.function.environment.latex.tikz",
       "settings": { "foreground": "#fff9f0", "fontStyle": "" }
+    },
+    {
+      "scope": "support.function.path.tikz",
+      "settings": { "foreground": "#82AAFF" }
+    },
+    {
+      "scope": "entity.other.attribute-name.tikz",
+      "settings": { "foreground": "#73d1c8" }
     }
   ],
   "type": "dark"

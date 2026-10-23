@@ -2,7 +2,7 @@
   "name": "psm-theme",
   "displayName": "PSM Theme",
   "description": "PSM Theme",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "publisher": "Sergiy",
   "author": {
     "name": "psm"
@@ -32,6 +32,15 @@
         "label": "PSM Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/PSM Theme-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "tikz.injection",
+        "path": "./syntaxes/tikz.injection.json",
+        "injectTo": [
+          "text.tex.latex"
+        ]
       }
     ]
   },
