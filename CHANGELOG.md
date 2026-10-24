@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- LaTeX: commands such as `\section`, `\emph`, `\index`, `\centering` and `\caption` are now blue, like TikZ commands, instead of pale yellow that blended with the text.
+
 ## 1.2.0
 
 - Unified syntax palette: about 28 token colors reduced to 14 with matching saturation.

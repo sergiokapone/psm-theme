@@ -619,6 +619,22 @@
       }
     },
     {
+      "name": "LaTeX commands",
+      "scope": [
+        "support.function.general.tex",
+        "support.function.general.latex",
+        "support.function.section.latex",
+        "support.function.emph.latex",
+        "support.function.textbf.latex",
+        "support.function.textit.latex",
+        "support.function.texttt.latex",
+        "support.function.footnote.latex",
+        "support.function.marginpar.latex",
+        "support.function.url.latex"
+      ],
+      "settings": { "foreground": "#82AAFF" }
+    },
+    {
       "scope": "support.function.be.latex",
       "settings": { "foreground": "#C792EA", "fontStyle": "" }
     },
