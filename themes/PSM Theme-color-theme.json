@@ -31,7 +31,7 @@
     "editor.background": "#0E1621",
     "editor.findMatchBackground": "#9e6a03",
     "editor.findMatchHighlightBackground": "#9e6a0366",
-    "editor.foreground": "#cccccc",
+    "editor.foreground": "#DCE3EA",
     "editor.inactiveSelectionBackground": "#0078d433",
     "editor.lineHighlightBackground": "#234",
     "editor.selectionBackground": "#0078d466",
@@ -212,11 +212,11 @@
     "function": "#DCDCAA",
     "method": "#DCDCAA",
     "magicFunction": "#DCDCAA",
-    "function.decorator": "#C792EA",
-    "class.decorator": "#C792EA",
-    "decorator": "#C792EA",
+    "function.decorator": "#F28FAD",
+    "class.decorator": "#F28FAD",
+    "decorator": "#F28FAD",
     "property": "#B2CCD6",
-    "variable": "#eff7ff",
+    "variable": "#DCE3EA",
     "parameter": "#F78C6A",
     "parameter.keywordArgument": "#F78C6A",
     "selfParameter": "#FF5370",
@@ -267,7 +267,7 @@
         "punctuation.separator.comma.js"
       ],
       "settings": {
-        "foreground": "#eff7ff"
+        "foreground": "#DCE3EA"
       }
     },
     {
@@ -291,7 +291,7 @@
         "punctuation.parenthesis.non-capturing.end.regexp"
       ],
       "settings": {
-        "foreground": "#0ef"
+        "foreground": "#89DDF3"
       }
     },
     {
@@ -300,7 +300,7 @@
         "support.other.escape.special.regexp"
       ],
       "settings": {
-        "foreground": "#0c5"
+        "foreground": "#C3E88D"
       }
     },
     {
@@ -308,7 +308,7 @@
         "string.regexp.quoted.single.python"
       ],
       "settings": {
-        "foreground": "#f88"
+        "foreground": "#F07178"
       }
     },
     {
@@ -316,7 +316,7 @@
         "keyword.operator.quantifier.regexp"
       ],
       "settings": {
-        "foreground": "#f87"
+        "foreground": "#F78C6A"
       }
     },
     {
@@ -325,7 +325,7 @@
         "constant.character.escape.regexp"
       ],
       "settings": {
-        "foreground": "#fee"
+        "foreground": "#FFCB6B"
       }
     },
     {
@@ -342,7 +342,7 @@
         "support.type.builtin.graphql"
       ],
       "settings": {
-        "foreground": "#a9d18b"
+        "foreground": "#C3E88D"
       }
     },
     {
@@ -350,7 +350,7 @@
         "string.quoted.double.json.comments"
       ],
       "settings": {
-        "foreground": "#fff"
+        "foreground": "#DCE3EA"
       }
     },
     {
@@ -360,7 +360,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#6A9955"
+        "foreground": "#7A8F99"
       }
     },
     {
@@ -382,7 +382,7 @@
         "punctuation.definition.decorator.python"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#F28FAD"
       }
     },
     {
@@ -432,7 +432,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#6A9955"
+        "foreground": "#7A8F99"
       }
     },
     {
@@ -441,7 +441,7 @@
         "punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#a9d18b"
+        "foreground": "#C3E88D"
       }
     },
     {
@@ -478,7 +478,7 @@
         "keyword.other.default"
       ],
       "settings": {
-        "foreground": "#f3caf3"
+        "foreground": "#C792EA"
       }
     },
     {
@@ -606,7 +606,7 @@
         "meta.object-literal.key.ts"
       ],
       "settings": {
-        "foreground": "#73d1c8"
+        "foreground": "#4EC9B0"
       }
     },
     {
@@ -615,63 +615,63 @@
         "markup.underline.link.markdown"
       ],
       "settings": {
-        "foreground": "#ff869a"
+        "foreground": "#F07178"
       }
     },
     {
       "scope": "support.function.be.latex",
-      "settings": { "foreground": "#00ffc8", "fontStyle": "" }
+      "settings": { "foreground": "#C792EA", "fontStyle": "" }
     },
     {
       "scope": "variable.parameter.function.latex",
-      "settings": { "foreground": "#ffff7fc5", "fontStyle": "" }
+      "settings": { "foreground": "#FFCB6B", "fontStyle": "" }
     },
     {
       "scope": "constant.character.math.tex",
-      "settings": { "foreground": "#7bc459", "fontStyle": "" }
+      "settings": { "foreground": "#C3E88D", "fontStyle": "" }
     },
     {
       "scope": "constant.other.reference.label.latex",
-      "settings": { "foreground": "#56b6c2", "fontStyle": "underline" }
+      "settings": { "foreground": "#4EC9B0", "fontStyle": "underline" }
     },
     {
       "scope": "constant.other.general.math.tex",
-      "settings": { "foreground": "#ffc59eda", "fontStyle": "" }
+      "settings": { "foreground": "#F78C6A", "fontStyle": "" }
     },
     {
       "scope": "support.class.math.block.environment.latex",
-      "settings": { "foreground": "#56b6c2" }
+      "settings": { "foreground": "#4EC9B0" }
     },
     {
       "scope": "keyword.control.label.latex",
-      "settings": { "foreground": "#c678dd" }
+      "settings": { "foreground": "#C792EA" }
     },
     {
       "scope": "keyword.control.ref.latex",
-      "settings": { "foreground": "#56b6c2", "fontStyle": "" }
+      "settings": { "foreground": "#4EC9B0", "fontStyle": "" }
     },
     {
       "scope": "punctuation.definition.constant.math.tex",
-      "settings": { "foreground": "#98c379", "fontStyle": "" }
+      "settings": { "foreground": "#C3E88D", "fontStyle": "" }
     },
     {
       "scope": [
         "comment.line.percentage.tex",
         "comment.line.percentage.tex punctuation.definition.comment.tex"
       ],
-      "settings": { "foreground": "#7d8590", "fontStyle": "italic" }
+      "settings": { "foreground": "#7A8F99", "fontStyle": "italic" }
     },
     {
       "scope": "keyword.other.item.latex",
-      "settings": { "foreground": "#00ffc8" }
+      "settings": { "foreground": "#C792EA" }
     },
     {
       "scope": "support.function.math.latex",
-      "settings": { "foreground": "#FF9D00" }
+      "settings": { "foreground": "#F78C6A" }
     },
     {
       "scope": "meta.function.environment.latex.tikz",
-      "settings": { "foreground": "#fff9f0", "fontStyle": "" }
+      "settings": { "foreground": "#DCE3EA", "fontStyle": "" }
     },
     {
       "scope": "support.function.path.tikz",
@@ -679,7 +679,7 @@
     },
     {
       "scope": "entity.other.attribute-name.tikz",
-      "settings": { "foreground": "#73d1c8" }
+      "settings": { "foreground": "#4EC9B0" }
     }
   ],
   "type": "dark"

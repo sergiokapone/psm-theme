@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.0
+
+- Unified syntax palette: about 28 token colors reduced to 14 with matching saturation.
+- Keywords (`if`, `for`, `def`, `return`) are now purple instead of pale pink and stand out from regular text.
+- Python decorators moved to pink so they don't clash with keywords.
+- Comments are blue-gray instead of green, so they no longer look like strings. Strings are a single green.
+- One text color: plain text and variables now share `#DCE3EA`.
+- LaTeX: `\begin`/`\end`/`\item` use the keyword color instead of neon cyan; math commands, labels and references use the shared palette.
+- Regular expressions: neon colors replaced with palette colors.
+
 ## 1.1.0
 
 - Explicit semantic token colors. Python colors no longer change once Pylance finishes loading: `self`/`cls` stay red (they used to turn orange), brackets stay cyan (they used to turn white).

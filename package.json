@@ -2,7 +2,7 @@
   "name": "psm-theme",
   "displayName": "PSM Theme",
   "description": "Dark theme for Python, Data Science and LaTeX/TikZ, based on Spyder IDE colors",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "Sergiy",
   "author": {
     "name": "psm"
