@@ -8,3 +8,4 @@ node_modules/**
 images/icon.sketch
 images/screenshot*.png
 package.cmd
+memory/**
